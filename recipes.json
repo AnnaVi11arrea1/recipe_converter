@@ -1,0 +1,22 @@
+{
+  "diets" : [ "regular", "dairy free", "vegan", "gluten free" ],
+  "recipes" : [ {
+    "name" : "Chocolate Chip Cookies",
+    "diet" : "regular",
+    "ingredients" : [ "2 cups flour", "1 cup sugar", "1 cup butter", "2 eggs", "1 tsp vanilla extract", "1 cup chocolate chips" ],
+    "instructions" : [ "Preheat oven to 350°F.", "Mix all ingredients.", "Bake for 10-12 minutes." ]
+  }, {
+    "name" : "Chocolate Chip Cookies",
+    "diet" : "dairy free",
+    "ingredients" : [ "2 cups flour", "1 cup sugar", {
+      "name" : "plant-based butter",
+      "amount" : 1.0,
+      "unit" : "cup"
+    }, "2 eggs", "1 tsp vanilla extract", {
+      "name" : "dairy free chocolate chips",
+      "amount" : 1.0,
+      "unit" : "cup"
+    } ],
+    "instructions" : [ ]
+  } ]
+}
